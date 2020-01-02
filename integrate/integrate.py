@@ -24,10 +24,10 @@ p = comm.Get_size()
 a = 0.0
 
 # float b - right endpoint
-b = 1.0
+b = 10.0
 
 # int n - number of trapezoids
-n = 1024
+n = 2048
 
 # critical point barrier process in charge
 dest=0

@@ -45,3 +45,10 @@ we execute using the compiled python wrapper around mpicc in order to specify nu
  processes to execute
 
 
+try running like so:
+
+time mpirun -np <X> python integral.py
+
+https://stackoverflow.com/questions/556405/what-do-real-user-and-sys-mean-in-the-output-of-time1
+
+See the time output?  Oversubscribing the number of cores doesn't make the processs run faster (generally).  Try it out!
