@@ -1,3 +1,11 @@
 # gitignore
 
 **/python_mpi
+**/__pycache__
+
+*.swp
+**/*.swp
+**/*.*.swp
+*.pyc
+**/*.pyc
+**/*.*.pyc
